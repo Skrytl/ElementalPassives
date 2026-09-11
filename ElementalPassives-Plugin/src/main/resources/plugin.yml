@@ -1,0 +1,16 @@
+name: ElementalPassives
+version: '1.0.0'
+main: com.elementalpassives.ElementalPassives
+api-version: '26.2'
+author: ElementalPassives
+description: Elemental passives for designated players.
+commands:
+  elementalpassives:
+    description: Inspect and manage ElementalPassives
+    aliases: [ep, passives]
+    permission: elementalpassives.admin
+    usage: /<command> [info|reload|list]
+permissions:
+  elementalpassives.admin:
+    description: Allows reloading and inspecting ElementalPassives
+    default: op
